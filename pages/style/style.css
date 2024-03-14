@@ -1,0 +1,79 @@
+.block-life, .block-family, .hobby, .dog
+{
+    color:rgb(46, 152, 140);
+    font-size: 40px;
+    font-family: 'Gill Sans MT';
+    border-style: solid;
+    border-radius: 70px;
+  border-width: 5px;
+  border-color: rgb(184, 116, 91);
+  text-align: center;
+
+    
+
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1684095756735-6d40bea79cc5?q=80&w=2160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) 
+}
+.block-life, .hobby
+{
+    margin-left: 980px;
+}
+.life2, .hobby2
+{
+    margin-left: 950px;
+    color: rgb(19, 89, 23);
+}
+.img-cat-life, .img-hobby, .img-hobby2, .img-hobby3
+{
+    width: 350px;
+    margin-left: 950px;
+    border-style: groove;
+    border-radius: 50px;
+}
+.img-rest, .img-rest, .img-dog
+{
+    width: 350px;
+    margin 950px;
+    border-style: groove;
+    border-radius: 50px;
+}
+.pages{
+    color: rgb(19, 180, 10);
+    font-size: large;
+    font-family: Calibri;
+    background-color: burlywood;
+    margin-left: 120px;
+    text-align: center;
+    border-style: double;
+    color: rgb(8, 0, 11);
+    border-color: rgb(202, 192, 180);
+    border-radius: 30px;
+    border-width: 20px;
+    animation: mymove 5s infinite;
+    animation-duration: 2s;
+  }
+  @keyframes mymove {
+    from {background-color: rgb(13, 231, 148);}
+    to {background-color: rgb(107, 161, 155);}
+}
+.contact{
+    color: rgb(19, 180, 10);
+    font-size: large;
+    margin-left: 10px;
+    font-family: Calibri;
+    background-color: burlywood;
+    text-align: center;
+    border-style: double;
+    color: rgb(8, 0, 11);
+    border-color: rgb(202, 192, 180);
+    border-radius: 30px;
+    border-width: 20px;
+    animation: mymove 5s infinite;
+    animation-duration: 2s;
+  }
+  @keyframes mymove {
+    from {background-color: rgb(13, 231, 148);}
+    to {background-color: rgb(107, 161, 155);}
+}
+

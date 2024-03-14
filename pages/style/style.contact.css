@@ -1,0 +1,56 @@
+.text{
+    color: darkolivegreen;
+    font-size: large;
+    font-family: monospace;
+    border-style: dashed;
+    border-color: rgb(91, 132, 50);
+    border-width: 5px;
+    text-align: center;
+}
+.button, .email, .password
+{
+color: rgb(19, 124, 124);
+font-size: medium;
+font-family: Lucida Sans;
+border-style: groove;
+border-color: blue;
+margin-left: 40px;
+}
+.box{
+    margin-left: 40px;
+    font-size: medium;
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1685028647245-aa3edbb61c45?q=80&w=3072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+
+.text {
+    background-color: #86d959;
+    border: gray;
+    color: rgb(78, 166, 23);
+    padding: 25px 40px;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 40px;
+  }
+  .button{
+    background-color: burlywood;
+    text-align: center;
+    border-style: double;
+    color: rgb(179, 101, 200);
+    border-color: bisque;
+    border-radius: 30px;
+    border-width: 10px;
+    animation: mymove 5s infinite;
+    animation-duration: 2s;
+  }
+  @keyframes mymove {
+    from {background-color: rgb(226, 215, 52);}
+    to {background-color: rgb(18, 211, 192);}
+}
